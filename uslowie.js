@@ -33,4 +33,4 @@ switch (num) {
         default:
             console.log('не в этот раз');
             break;
-}
+} 
