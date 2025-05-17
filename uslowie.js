@@ -1,6 +1,7 @@
 "use script"
+let mum = 5;
 
-if (1) {
+if (mum) {
     console.log("ok");
 } else {
     console.log('error')
@@ -34,3 +35,4 @@ switch (num) {
             console.log('не в этот раз');
             break;
 } 
+
