@@ -1,11 +1,11 @@
 "use script"
-let mum = 5;
+// let mum = 5;
 
-if (mum) {
-    console.log("ok");
-} else {
-    console.log('error')
-}
+// if (mum) {
+//     console.log("ok");
+// } else {
+//     console.log('error')
+// }
 
 
 // if (num < 49) {
@@ -19,20 +19,12 @@ if (mum) {
 // (num === 50) ? console.log('ok') : console.log ('error');
 
 
-const num = '50';
+const num = 50;
 
 switch (num) {
-        case '49':
-            console.log('неверно ');
-            break;
-        case '100':
-            console.log('неверно ');
-            break;
-        case '50':
-            console.log('в точку ');
-            break;
-        default:
-            console.log('не в этот раз');
-            break;
-} 
+    case 49: console.log("нет"); break;
+    case 100: console.log("нет"); break;
+    case 50: console.log("да"); break;
+    default: console.log("не в этот раз"); break;
+}
 
